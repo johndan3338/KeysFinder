@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cryptocurrency private key database with balance checker | KeysFinder.Net</title>
+<meta name="description" content="A database of all bitcoin and ethereum private keys with automatic balance checker. Addresses are generated based on page number. Every private key is on this website" />
+<meta name="keywords" content="crypto, cryptocurrency, btc, bitcoin, eth, ethereum, wallet, address, wif, public key, private key, balance, database" />
+<link rel="stylesheet" href="/css/site.css?v=6IUWvuSzjXycXce-rQfaVbCJWtVL091-zcq30qktt10" />
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+</head>
+<body class="flex flex-col bg-grey-lightest min-h-screen">
+<nav b-ygf94u3eaj class="flex justify-around items-center py-2 mb-4 bg-white shadow">
+<div b-ygf94u3eaj>
+<a b-ygf94u3eaj href="/" class="flex items-center text-black font-mono font-bold text-xl">
+<img b-ygf94u3eaj class="h-6 mr-2 inline-block" src="/images/logo.png" alt="KeysFinder.Net">
+KeysFinder.Net
+</a>
+</div>
+<div b-ygf94u3eaj class="flex items-center justify-between" title="Bitcoin keys">
+<a b-ygf94u3eaj class="flex items-center text-black p-1 ml-4 sm:ml-6" href="/bitcoin">
+<span b-ygf94u3eaj class="h-6 w-6 mr-2">
+<svg b-ygf94u3eaj viewBox="0 0 64 64" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<g b-ygf94u3eaj transform="translate(0.00630876,-0.00301984)">
+<path b-ygf94u3eaj fill="#f7931a" d="m63.033,39.744c-4.274,17.143-21.637,27.576-38.782,23.301-17.138-4.274-27.571-21.638-23.295-38.78,4.272-17.145,21.635-27.579,38.775-23.305,17.144,4.274,27.576,21.64,23.302,38.784z" />
+<path b-ygf94u3eaj fill="#FFF" d="m46.103,27.444c0.637-4.258-2.605-6.547-7.038-8.074l1.438-5.768-3.511-0.875-1.4,5.616c-0.923-0.23-1.871-0.447-2.813-0.662l1.41-5.653-3.509-0.875-1.439,5.766c-0.764-0.174-1.514-0.346-2.242-0.527l0.004-0.018-4.842-1.209-0.934,3.75s2.605,0.597,2.55,0.634c1.422,0.355,1.679,1.296,1.636,2.042l-1.638,6.571c0.098,0.025,0.225,0.061,0.365,0.117-0.117-0.029-0.242-0.061-0.371-0.092l-2.296,9.205c-0.174,0.432-0.615,1.08-1.609,0.834,0.035,0.051-2.552-0.637-2.552-0.637l-1.743,4.019,4.569,1.139c0.85,0.213,1.683,0.436,2.503,0.646l-1.453,5.834,3.507,0.875,1.439-5.772c0.958,0.26,1.888,0.5,2.798,0.726l-1.434,5.745,3.511,0.875,1.453-5.823c5.987,1.133,10.489,0.676,12.384-4.739,1.527-4.36-0.076-6.875-3.226-8.515,2.294-0.529,4.022-2.038,4.483-5.155zm-8.022,11.249c-1.085,4.36-8.426,2.003-10.806,1.412l1.928-7.729c2.38,0.594,10.012,1.77,8.878,6.317zm1.086-11.312c-0.99,3.966-7.1,1.951-9.082,1.457l1.748-7.01c1.982,0.494,8.365,1.416,7.334,5.553z" />
+</g>
+</svg>
+</span>
+</a>
+<a b-ygf94u3eaj class="flex items-center text-black p-1 ml-4 sm:ml-6" href="/ethereum" title="Ethereum keys">
+<span b-ygf94u3eaj class="h-4 w-4 mr-2 -mt-2">
+<svg b-ygf94u3eaj viewBox="0 0 256 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+<g b-ygf94u3eaj>
+<polygon b-ygf94u3eaj fill="#343434" points="127.9611 0 125.1661 9.5 125.1661 285.168 127.9611 287.958 255.9231 212.32" />
+<polygon b-ygf94u3eaj fill="#8C8C8C" points="127.962 0 0 212.32 127.962 287.959 127.962 154.158" />
+<polygon b-ygf94u3eaj fill="#3C3C3B" points="127.9611 312.1866 126.3861 314.1066 126.3861 412.3056 127.9611 416.9066 255.9991 236.5866" />
+<polygon b-ygf94u3eaj fill="#8C8C8C" points="127.962 416.9052 127.962 312.1852 0 236.5852" />
+<polygon b-ygf94u3eaj fill="#141414" points="127.9611 287.9577 255.9211 212.3207 127.9611 154.1587" />
+<polygon b-ygf94u3eaj fill="#393939" points="0.0009 212.3208 127.9609 287.9578 127.9609 154.1588" />
+</g>
+</svg>
+</span>
+</a>
+</div>
+</nav>
+<div id="app" class="container mx-auto px-2 flex-1">
+<div class="max-w-md mx-auto">
+<h1 class="my-4">Every Bitcoin and Ethereum private key is on this website</h1>
+<p>
+Yes, your private key is on this website too, but don't worry, nobody will ever find it.
+<br>
+<br>
+If you want to try searching for your wallet, click one of the buttons below.
+</p>
+<div class="flex items-center justify-between sm:justify-start my-8">
+<div class="flex flex-col items-center mr-0 sm:mr-32" title="Open a random page of Bitcoin wallets">
+<a href="/bitcoin/random">
+<div class="h-16 w-16">
+<svg viewBox="0 0 64 64" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<g transform="translate(0.00630876,-0.00301984)">
+<path fill="#f7931a" d="m63.033,39.744c-4.274,17.143-21.637,27.576-38.782,23.301-17.138-4.274-27.571-21.638-23.295-38.78,4.272-17.145,21.635-27.579,38.775-23.305,17.144,4.274,27.576,21.64,23.302,38.784z" />
+<path fill="#FFF" d="m46.103,27.444c0.637-4.258-2.605-6.547-7.038-8.074l1.438-5.768-3.511-0.875-1.4,5.616c-0.923-0.23-1.871-0.447-2.813-0.662l1.41-5.653-3.509-0.875-1.439,5.766c-0.764-0.174-1.514-0.346-2.242-0.527l0.004-0.018-4.842-1.209-0.934,3.75s2.605,0.597,2.55,0.634c1.422,0.355,1.679,1.296,1.636,2.042l-1.638,6.571c0.098,0.025,0.225,0.061,0.365,0.117-0.117-0.029-0.242-0.061-0.371-0.092l-2.296,9.205c-0.174,0.432-0.615,1.08-1.609,0.834,0.035,0.051-2.552-0.637-2.552-0.637l-1.743,4.019,4.569,1.139c0.85,0.213,1.683,0.436,2.503,0.646l-1.453,5.834,3.507,0.875,1.439-5.772c0.958,0.26,1.888,0.5,2.798,0.726l-1.434,5.745,3.511,0.875,1.453-5.823c5.987,1.133,10.489,0.676,12.384-4.739,1.527-4.36-0.076-6.875-3.226-8.515,2.294-0.529,4.022-2.038,4.483-5.155zm-8.022,11.249c-1.085,4.36-8.426,2.003-10.806,1.412l1.928-7.729c2.38,0.594,10.012,1.77,8.878,6.317zm1.086-11.312c-0.99,3.966-7.1,1.951-9.082,1.457l1.748-7.01c1.982,0.494,8.365,1.416,7.334,5.553z" />
+</g>
+</svg>
+</div>
+</a>
+<a href="/bitcoin/random" class="btn block mt-4">Random page</a>
+</div>
+<div class="flex flex-col items-center" title="Open a random page of Ethereum wallets">
+<a href="/ethereum/random">
+<div class="h-12 w-12 -mt-4">
+<svg viewBox="0 0 256 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+<g>
+<polygon fill="#343434" points="127.9611 0 125.1661 9.5 125.1661 285.168 127.9611 287.958 255.9231 212.32" />
+<polygon fill="#8C8C8C" points="127.962 0 0 212.32 127.962 287.959 127.962 154.158" />
+<polygon fill="#3C3C3B" points="127.9611 312.1866 126.3861 314.1066 126.3861 412.3056 127.9611 416.9066 255.9991 236.5866" />
+<polygon fill="#8C8C8C" points="127.962 416.9052 127.962 312.1852 0 236.5852" />
+<polygon fill="#141414" points="127.9611 287.9577 255.9211 212.3207 127.9611 154.1587" />
+<polygon fill="#393939" points="0.0009 212.3208 127.9609 287.9578 127.9609 154.1588" />
+</g>
+</svg>
+</div>
+</a>
+<a href="/ethereum/random" class="btn block mt-12">Random page</a>
+</div>
+</div>
+<h2 class="mb-2">How does this work?</h2>
+<p class="leading-normal">
+A private key is basically just a number between 1 and 2<sup>256</sup>.
+This website generates keys for all of those numbers, spread out over pages of 128 keys each.
+<br>
+<br>
+This website doesn't actually have a database of all private keys, that would take an impossible amount of disk space.
+Instead, keys are procedurally generated on the fly when a page is opened.
+The page number is used to calculate which keys should be on that page.
+<br>
+<br>
+Finding an active wallet is hard, but not impossible.
+Every time you open a random page, you have a chance of finding someone else's fortune.
+<br>
+<br>
+If you're curious which page your wallet is on, you could do a <a class="underline" href="/bitcoin/search">search</a> for it.
+That will show you exactly which page your wallet is on.
+</p>
+<h2 class="mt-8 mb-2">Automatic balance checking</h2>
+<p class="leading-normal">
+The balance of each wallet is automatically checked.
+Wallets with a balance are colored green.
+Wallets that have been used in the past but are now empty will turn yellow.
+Wallets that have never been used are red.
+</p>
+<div class="mb-8"></div>
+</div>
+</div>
+<footer b-ygf94u3eaj class="py-2 mt-4 bg-white border-t text-xs">
+<div b-ygf94u3eaj class="flex justify-around text-center max-w-md mx-auto">
+<a b-ygf94u3eaj class="text-black hover:underline" href="/about">About</a>
+<a b-ygf94u3eaj class="text-black hover:underline" href="/privacy">Privacy</a>
+<a b-ygf94u3eaj class="text-black hover:underline" href="/statistics">Statistics</a>
+<a b-ygf94u3eaj class="text-black hover:underline" href="/donate">
+Donate
+<svg b-ygf94u3eaj viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 fill-current text-red">
+<path b-ygf94u3eaj d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26t-55.5-65.5-68-97.5-53.5-121-23.5-138q0-220 127-344t351-124q62 0 126.5 21.5t120 58 95.5 68.5 76 68q36-36 76-68t95.5-68.5 120-58 126.5-21.5q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z"></path>
+</svg>
+</a>
+</div>
+</footer>
+<script type="text/javascript" src="/js/site.js"></script>
+<div b-ygf94u3eaj class="js-cookie-consent cookie-consent fixed pin-b mb-8 pin-l pin-r pb-2">
+<div b-ygf94u3eaj class="max-w-xl mx-auto px-6">
+<div b-ygf94u3eaj class="p-2 rounded-lg bg-yellow-light">
+<div b-ygf94u3eaj class="flex items-center justify-between flex-wrap">
+<div b-ygf94u3eaj class="w-0 flex-1 items-center inline">
+<p b-ygf94u3eaj class="ml-3 text-yellow-darkest cookie-consent__message">
+Your experience on this site will be improved by allowing cookies.
+</p>
+</div>
+<div b-ygf94u3eaj class="mt-2 flex-shrink-0 w-full sm:mt-0 sm:w-auto">
+<a b-ygf94u3eaj class="js-cookie-consent-agree cookie-consent__agree cursor-pointer flex items-center justify-center px-4 py-2 rounded-lg text-sm font-medium text-yellow-darkest bg-yellow-dark">
+Allow cookies
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+            !function(){var b;function d(){f("cookie_consent_cookie",1,7300),e()}function e(){let b=document.getElementsByClassName("js-cookie-consent");for(let a=0;a<b.length;++a)b[a].style.display="none"}function f(b,c,d){let a=new Date;a.setTime(a.getTime()+864e5*d),document.cookie=b+"="+c+";expires="+a.toUTCString()+";domain=keysfinder.net;path=/"}b="cookie_consent_cookie",-1!==document.cookie.split("; ").indexOf(b+"=1")&&e();let c=document.getElementsByClassName("js-cookie-consent-agree");for(let a=0;a<c.length;++a)c[a].addEventListener("click",d)}()
+        </script>
+</body>
+</html>
